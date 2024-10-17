@@ -1,4 +1,5 @@
 ;   Take user input for the summation limit
+^   increment by 1 for loop counter
 {
     @^  Move to next memory location, increment it
     #_  Move back to first memory location, decrement it
