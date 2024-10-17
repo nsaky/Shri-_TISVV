@@ -1,0 +1,7 @@
+;   Take user input for the summation limit
+{
+    @^  Move to next memory location, increment it
+    #_  Move back to first memory location, decrement it
+}       Loop ends when input reaches 0
+@   Move to the second memory location
+:   Output the result
